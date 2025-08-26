@@ -1,0 +1,49 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# バーチャル環境
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# パッケージやビルド成果物
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# ログやキャッシュ
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+.Python
+.coverage
+htmlcov/
+.cache/
+.pytest_cache/
+.tox/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ----------------------------
+# PyCharm / JetBrains
+# ----------------------------
+.idea/
+*.iml
+
+# ----------------------------
+# OS
+# ----------------------------
+.DS_Store
+Thumbs.db
