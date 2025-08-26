@@ -1,0 +1,18 @@
+# .github/workflows/hello.yml
+name: Hello World Workflow
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: リポジトリをチェックアウト
+        uses: actions/checkout@v3
+
+      - name: Hello World を表示
+        run: echo "Hello, GitHub Actions!"
