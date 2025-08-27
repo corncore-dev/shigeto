@@ -1,0 +1,11 @@
+name: Test CI
+
+on:
+  workflow_dispatch:   # 手動実行
+  push:                # push 時にも実行
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello, GitHub Actions!"
